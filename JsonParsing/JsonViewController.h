@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JSON.h"
 
-@interface JsonViewController : UIViewController
+@interface JsonViewController : UIViewController {
+    NSMutableData *responseData;
+    NSMutableArray *pArrStationame,*pArrStationameTable;
+    IBOutlet UITableView *pTblCities;
+
+}
 
 @end
